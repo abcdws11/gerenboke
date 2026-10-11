@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "kicker": "业余无线电",
+    "subtitle": "BH6CAZ · 中国 安徽 合肥"
+  },
+  "intro": "我是在2026年安徽第十一次滁州考试后拿到的呼号 BH6CAZ，从此多了个抬头看天的理由。平时主要在 2 米和 70 厘米波段守听，周末偶尔架起便携天线到楼顶试一试。如果你在频率上听到我，请务必打声招呼——在这个越来越安静的世界里，有人回应是一件很浪漫的事。",
+  "facts": [
+    {
+      "icon": "uil-user",
+      "label": "呼号",
+      "value": "BH6CAZ"
+    },
+    {
+      "icon": "uil-map-marker",
+      "label": "QTH",
+      "value": "中国 安徽 合肥"
+    },
+    {
+      "icon": "uil-award",
+      "label": "操作级别",
+      "value": "A 类操作证书"
+    },
+    {
+      "icon": "uil-signal",
+      "label": "常用频段",
+      "value": "VHF/UHF（2m / 70cm）"
+    },
+    {
+      "icon": "uil-calendar-alt",
+      "label": "入坑时间",
+      "value": "2026 年夏天"
+    },
+    {
+      "icon": "uil-radio",
+      "label": "常用设备",
+      "value": "宝峰UV-5R-Mini（很便携透明款很好看）"
+    }
+  ],
+  "qsl": {
+    "title": "QSL 卡片申请",
+    "note": "收到你的信号是我一天里最开心的事之一。如果你在频率上通联过 BH6CAZ，或者单纯想交换一张卡片，可以通过下面任意一种方式联系我：纸质卡片走邮箱或快递都可以，收到之后我会尽快回卡。",
+    "cards": [
+      {
+        "label": "在线 QSL 申请",
+        "tip": "在 QRZ 上留下你的呼号与收件信息，我确认通联记录后会尽快回卡。",
+        "url": "https://www.qrz.com/db/BH6CAZ",
+        "btnText": "前往 QRZ"
+      },
+      {
+        "label": "邮件申请",
+        "tip": "写清你的呼号、QTH 和收件地址，纸质卡片我会亲手填好寄出。",
+        "url": "mailto:123@jxz.us.ci",
+        "btnText": "发送邮件"
+      }
+    ]
+  },
+  "qrz": {
+    "text": "想看我的呼号档案、通联记录和最新的 QSL 信息，可以在 QRZ 上搜索 BH6CAZ。",
+    "url": "https://www.qrz.com/db/BH6CAZ"
+  }
+}

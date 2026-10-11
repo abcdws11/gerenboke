@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "kicker": "Amateur Radio",
+    "subtitle": "BH6CAZ — a handheld on the balcony, listening from Hefei."
+  },
+  "intro": "Amateur radio is the hobby that taught me the most for the least money. My station is modest — a handheld, a roll-up antenna, and a habit of going outside when the weather is good — but on a quiet evening I can still reach repeaters across the city and occasionally catch a station far beyond it. I mostly work VHF and UHF, I am slowly learning Morse code, and I am always happy to answer a call from another operator, especially someone who is also just starting out.",
+  "facts": [
+    {
+      "icon": "uil-user",
+      "label": "Callsign",
+      "value": "BH6CAZ"
+    },
+    {
+      "icon": "uil-map-marker",
+      "label": "QTH",
+      "value": "Hefei, Anhui, China"
+    },
+    {
+      "icon": "uil-award",
+      "label": "License Class",
+      "value": "Class A Operator Certificate"
+    },
+    {
+      "icon": "uil-signal",
+      "label": "Bands",
+      "value": "VHF/UHF (2m / 70cm)"
+    },
+    {
+      "icon": "uil-calendar-alt",
+      "label": "Licensed Since",
+      "value": "2026"
+    },
+    {
+      "icon": "uil-radio",
+      "label": "Rig",
+      "value": "Baofeng UV-5R Mini — a transparent handheld that is easy to carry and looks great."
+    }
+  ],
+  "qsl": {
+    "title": "QSL Cards",
+    "note": "I answer every card I receive, and I am glad to send one to anyone who has heard me on the air. Direct requests are the fastest: include your own callsign, the date and time of our contact, the band or repeater you used, and a self-addressed envelope if you would like a paper card back. If you would rather not use the post, an email with a confirmation request is perfectly fine — and if we have already confirmed through a logging service, that counts too.",
+    "cards": [
+      {
+        "label": "QSL via QRZ",
+        "tip": "My QRZ profile lists the current confirmation details and the address to use for direct paper cards.",
+        "url": "https://www.qrz.com/db/BH6CAZ",
+        "btnText": "Open QRZ"
+      },
+      {
+        "label": "Request by Email",
+        "tip": "Send me the details of our contact and I will reply with a confirmation or a card, whichever you would like.",
+        "url": "mailto:123@jxz.us.ci",
+        "btnText": "Send Email"
+      }
+    ]
+  },
+  "qrz": {
+    "text": "Look up BH6CAZ on QRZ for my full station details and confirmation history.",
+    "url": "https://www.qrz.com/db/BH6CAZ"
+  }
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!--==================== ICONS + WEB FONTS（原 8 个 css 已合并为 1 个，仍非阻塞加载）====================-->
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="assets/fonts/fonts.css" />
+    <noscript><link rel="stylesheet" href="assets/fonts/fonts.css" /></noscript>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles__v_20261011b.css" />
+
+    <title>About - 君夏终</title>
+
+    <!--==================== i18n 预加载：首屏直接使用语言文件，避免闪烁====================-->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('lang');
+          var lang = saved && ['cn', 'en', 'jp'].indexOf(saved) !== -1 ? saved : 'en';
+          document.documentElement.lang = lang === 'cn' ? 'zh-CN' : lang === 'jp' ? 'ja' : 'en';
+          document.documentElement.classList.add('i18n-loading');
+          window.__I18N_LANG__ = lang;
+          window.__I18N_READY__ = fetch('assets/i18n/i18n_' + lang + '.json')
+            .then(function (r) { return r.json(); })
+            .then(function (data) { window.__I18N_DATA__ = data; })
+            .catch(function () { /* 加载失败则保留默认文本*/ });
+        } catch (e) { /* 忽略 */ }
+      })();
+    </script>
+  </head>
+  <body>
+    <!--==================== 滚动进度条====================-->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!--==================== 背景光斑 ====================-->
+    <div class="bg-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo"><img class="nav__logo-img" src="assets/img/mygo.svg" alt="君夏终" /></a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p i18n="home">Home</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="radio.html" class="nav__link">
+                <i class="uil uil-signal nav__icon"></i>
+                <p i18n="radio">Radio</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p i18n="about">About</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <div class="lang-select" id="translate">
+                <button
+                  type="button"
+                  class="lang-select__trigger"
+                  id="lang-trigger"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  aria-label="Switch language"
+                  title="Switch language"
+                >
+                  <i class="uil uil-globe lang-select__icon"></i>
+                  <span class="lang-select__label" i18n="lang_switch">Language</span>
+                </button>
+                <ul class="lang-select__menu" id="lang-menu" role="menu">
+                  <li role="none">
+                    <button type="button" class="lang-select__option" role="menuitem" data-lang="cn">
+                      <svg class="lang-flag" viewBox="0 0 30 20" aria-hidden="true">
+                        <rect width="30" height="20" fill="#de2910"/>
+                        <g fill="#ffde00">
+                          <polygon points="3,4 3.7,6.2 6,6.2 4.15,7.6 4.9,9.8 3,8.3 1.1,9.8 1.85,7.6 0,6.2 2.3,6.2"/>
+                          <polygon points="9.5,1.5 10.1,2.9 11.6,2.9 10.4,3.8 11,5.2 9.5,4.3 8,5.2 8.6,3.8 7.4,2.9 8.9,2.9"/>
+                          <polygon points="13.6,4.6 14.1,5.8 15.4,5.8 14.4,6.6 14.9,7.8 13.6,7 12.3,7.8 12.8,6.6 11.8,5.8 13.1,5.8"/>
+                          <polygon points="12.6,9.2 13.1,10.4 14.4,10.4 13.4,11.2 13.9,12.4 12.6,11.6 11.3,12.4 11.8,11.2 10.8,10.4 12.1,10.4"/>
+                          <polygon points="9.4,12 9.9,13.2 11.2,13.2 10.2,14 10.7,15.2 9.4,14.4 8.1,15.2 8.6,14 7.6,13.2 8.9,13.2"/>
+                        </g>
+                      </svg> 中文
+                    </button>
+                  </li>
+                  <li role="none">
+                    <button type="button" class="lang-select__option" role="menuitem" data-lang="en">
+                      <svg class="lang-flag" viewBox="0 0 30 20" aria-hidden="true">
+                        <rect width="30" height="20" fill="#fff"/>
+                        <g fill="#b22234">
+                          <rect y="0" width="30" height="1.54"/>
+                          <rect y="3.08" width="30" height="1.54"/>
+                          <rect y="6.16" width="30" height="1.54"/>
+                          <rect y="9.23" width="30" height="1.54"/>
+                          <rect y="12.31" width="30" height="1.54"/>
+                          <rect y="15.38" width="30" height="1.54"/>
+                          <rect y="18.46" width="30" height="1.54"/>
+                        </g>
+                        <rect width="12" height="8.46" fill="#3c3b6e"/>
+                        <g fill="#fff">
+                          <circle cx="1.2" cy="1.2" r=".28"/><circle cx="3.6" cy="1.2" r=".28"/><circle cx="6" cy="1.2" r=".28"/><circle cx="8.4" cy="1.2" r=".28"/><circle cx="10.8" cy="1.2" r=".28"/>
+                          <circle cx="2.4" cy="2.6" r=".28"/><circle cx="4.8" cy="2.6" r=".28"/><circle cx="7.2" cy="2.6" r=".28"/><circle cx="9.6" cy="2.6" r=".28"/>
+                          <circle cx="1.2" cy="4" r=".28"/><circle cx="3.6" cy="4" r=".28"/><circle cx="6" cy="4" r=".28"/><circle cx="8.4" cy="4" r=".28"/><circle cx="10.8" cy="4" r=".28"/>
+                          <circle cx="2.4" cy="5.4" r=".28"/><circle cx="4.8" cy="5.4" r=".28"/><circle cx="7.2" cy="5.4" r=".28"/><circle cx="9.6" cy="5.4" r=".28"/>
+                          <circle cx="1.2" cy="6.8" r=".28"/><circle cx="3.6" cy="6.8" r=".28"/><circle cx="6" cy="6.8" r=".28"/><circle cx="8.4" cy="6.8" r=".28"/><circle cx="10.8" cy="6.8" r=".28"/>
+                          <circle cx="2.4" cy="8.2" r=".28"/><circle cx="4.8" cy="8.2" r=".28"/><circle cx="7.2" cy="8.2" r=".28"/><circle cx="9.6" cy="8.2" r=".28"/>
+                        </g>
+                      </svg> English
+                    </button>
+                  </li>
+                  <li role="none">
+                    <button type="button" class="lang-select__option" role="menuitem" data-lang="jp">
+                      <svg class="lang-flag" viewBox="0 0 30 20" aria-hidden="true">
+                        <rect width="30" height="20" fill="#fff"/>
+                        <circle cx="15" cy="10" r="6" fill="#bc002d"/>
+                      </svg> 日本語
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== 个人介绍 ====================-->
+      <section class="about-page section" id="about-page">
+        <h2 class="section__title reveal" id="about-kicker">&nbsp;</h2>
+        <span class="section__subtitle reveal" id="about-subtitle" style="--reveal-delay:.1s"
+          >&nbsp;</span
+        >
+
+        <div class="about-page__container container reveal" style="--reveal-delay:.2s">
+          <div class="about-page__hidden" id="about-hidden" hidden></div>
+          <div class="about-page__note" id="about-note" hidden></div>
+          <div id="about-body"></div>
+          <p class="about-page__closing" id="about-closing"></p>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div class="footer__logo">
+          <img class="footer__logo-img" src="assets/img/mygo.svg" alt="君夏终" />
+        </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="index.html" class="footer__link" i18n="home">Home</a>
+            </li>
+            <li>
+              <a href="radio.html" class="footer__link" i18n="radio">Radio</a>
+            </li>
+            <li>
+              <a href="about.html" class="footer__link" i18n="about">About</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://github.com/abcdws11" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://space.bilibili.com/3546557502720659" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-bilibili-line"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!--==================== IndieWeb Webring ====================-->
+        <p class="footer__webring">
+          <a href="https://xn--sr8hvo.ws/previous">←</a>
+          An <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>
+          <img class="footer__webring-logo" src="assets/img/iwc-logo-lockup-color.svg" alt="IndieWebCamp" />
+          🕸💍
+          <a href="https://xn--sr8hvo.ws/next">→</a>
+        </p>
+
+        <p class="footer__copy">
+          Copyright © <span id="footer-year">2026</span> 君夏终. All Rights Reserved.
+          <br />
+          Developed based on
+          <a
+            class="footer__copy"
+            href="https://github.com/ASouthernCat/responsive-portfolio-website"
+            target="_blank"
+            >ASOUTHERNCAT</a
+          >
+          and
+          <a
+            class="footer__copy"
+            href="https://www.youtube.com/c/Bedimcode"
+            target="_blank"
+            >Bedimcode</a
+          >
+          . Licensed under AGPL-3.0 license.
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== 公共 JS（原 iconfont + main + extern-link + translate 已合并为 1 个）====================-->
+    <script src="assets/js/app__v_20261010.js"></script>
+
+    <!-- about page JS -->
+    <script src="assets/js/about__v_20261011.js"></script>
+
+    <!-- Umami Analytics -->
+    <script
+      defer
+      src="assets/js/umami.js"
+      data-website-id="4bb007dc-7f34-4136-8789-f38bbaca0388"
+    ></script>
+  </body>
+</html>

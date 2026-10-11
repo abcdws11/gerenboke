@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "kicker": "About",
+    "subtitle": "A high school student, a kettle that is always warm, and a small antenna on the balcony.",
+    "note": "If a link here is broken or something reads strangely, please tell me at 123@jxz.us.ci, or open an issue on [my GitHub](https://github.com/abcdws11)."
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "Hello from Hefei",
+      "paragraphs": [
+        "Currently living in Hefei — a high school student serving time.",
+        "I like small projects that I can finish on my own: this website and a handheld radio that works more often than it has any right to."
+      ]
+    },
+    {
+      "type": "groups",
+      "title": "Things I Care About",
+      "groups": [
+        {
+          "subtitle": "Code & the Web",
+          "paragraphs": [
+            "I honestly have no talent for code. HTML, CSS, JavaScript, C — they are all a pack of demons to me, and by now I have forgotten even the C++ header files. Lately I have been filling in Python; next to C, an interpreted language is honestly pretty easy. My goal is to be able to write my own small tools, instead of asking an AI or searching GitHub every time I run into a problem.",
+            "This blog was completed with the help of the great DeepSeek. Even after the price hike, the whale is still excellent value compared with Claude and GPT, and there is none of the hassle with network access or getting your account banned. Much of the layout and those subtle animations you are looking at are the whale's doing: I use Vibe Coding to talk through ideas and make suggestions, then cross-check the results. Apart from burning money, eating up time, and the occasional gacha pull that comes out as a mess, it has no other drawbacks. And one last aside: DeepSeek-chan becoming a whale girl is the only true canon — Ciallo～(∠・ω< )⌒☆ nya!"
+          ]
+        },
+        {
+          "subtitle": "Amateur Radio",
+          "paragraphs": [
+            "I hold a Chinese amateur radio licence and spend most of my airtime on VHF and UHF with a handheld and a better antenna than the radio deserves. Repeaters in Hefei are friendly places, and I have learned a surprising amount of electronics simply by trying to hear people a little more clearly.",
+            "There is something honest about radio: no algorithm decides who you meet, you just call out and hope someone answers."
+          ]
+        },
+        {
+          "subtitle": "Outings, Street Photography & Urban Exploration",
+          "paragraphs": [
+            "I am the restless kind, and being on my own for too long honestly frightens me.",
+            "Postmodern; a fan of dream / grass / concrete / pool core aesthetics; and an urban ruins explorer.",
+            "1. The haunted house on Dashushan / the abandoned Dongfang School on Dashushan (easy to reach, hard to find, and it costs a lot of time and energy)",
+            "2. What was once Santorini, now an abandoned music town (no direct transport from the outskirts, far too out of the way)",
+            "3. Hefei Mingfa Plaza (essentially abandoned. At the front of the mall there is still a huge abandoned battleship, and in front of that sits a party house)",
+            "4. The nameless abandoned factory beside Tangqiao metro station (there is a metro, but getting in means a detour, and at noon you have to dodge the security guards)",
+            "5. Abandoned Villa No. 1 of the old Provincial Party Committee and the abandoned villas around it (No. 39 Changjiang Middle Road — there is an air-raid passage under the pavilion in the courtyard!)",
+            "6. The abandoned sales office at Hefei Drum Tower (the largest drum-shaped building in the world; confirmed abandoned, the front door is locked but you can get in through the back)",
+            "7. An abandoned castle in Hefei (a hilltop spot with a stunning view, rather like Dongji Island — but it is extremely far from the city and the road there is rough, so you need a car)",
+            "8. Hefei Prospecting Machinery Factory (the terminus of bus route 4; like No. 5 it has an underground passage, but it has been sealed off — a real shame)",
+            "9. An abandoned college in urban Hefei (called the Hefei Price School in the 1980s; No. 1 Dongliu Road)",
+            "10. The only Anhui University on Linquan Road, Yaohai District (it was meant to be converted into a middle school, then the plan was shelved; No. 40 Sizhou Road)",
+            "11. The Hefei Iron and Steel Works, Hegang 1958, and the ruins around it (incredibly photogenic, you come away with huge shots; the biggest factory in Hefei; easy to get in and out, though the security guards in some areas are truly terrifying)",
+            "12. Lidu Shopping Centre (a tear of an era, year-2000 style, a dreamcore scene)",
+            "13. Dama Plaza (once the top of the charts, now a relic of a bygone age; there is also an abandoned escape room inside with a huge amount of props left behind)",
+            "14. The former site of Jing'an Hospital (the closest one to me; you could get in before, but it has been under renovation since my high school entrance exams, and now there is a camera at the gate)",
+            "15. The old Hefei University of Technology campus on Lu'an Road (said to have been abandoned for 15 years; surprisingly it still has a historic back garden; you have to climb over a wall to get in)",
+            "16. Hefei city walk — the abandoned art school in Yaohai (students' belongings are still inside the building, but the main gate is locked and monitored, so you cannot get a look inside)",
+            "17. The largest unfinished building near Hefei Xinqiao Airport (currently slated for redevelopment; fairly out of the way, though the metro opening soon will make it convenient enough)",
+            "18. Hefei Fairy Tale Street (only good for photos, and far — over 50 km from the city, so not recommended)",
+            "19. “Wangxiawei”, now called Donggang Pier (such an old name that no map will find it however hard you try; there is an abandoned yacht floating on the water)",
+            "PS: there are also a few abandoned warehouses and railway bits that are not really worth visiting, so I will not list them all here. Exploration progress is currently around 75%."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "More About Me",
+      "paragraphs": [
+        "Not missing the blue hour is enough to make me feel that life is worth it.",
+        "Walking past a street corner, if there is a cat or a dog there, I will always stop for it. More than rushing off to some faraway place, I think I treasure those chance encounters more.",
+        "About the past, what I remember is often not a clear picture but the feeling left over from a certain moment. Memory is like scattered fragments — not necessarily whole, but that does not mean forgetting. Some details look trivial, yet they leave traces deep in time.",
+        "I am used to sensing the world by intuition, and I also try to understand it by logic. As for whether intuition comes first and reason follows after, I cannot quite say. Perhaps a person does not have to be clear about everything; being able to keep thinking amid contradictions is already a kind of answer.",
+        "Rather than trying to know everything under heaven, I would rather raise my phone and hold on to the people and things right in front of me. The world is vast, and there is far more worth exploring than what lies before me — but life is ultimately made of one concrete moment after another. Rather than being omniscient, I would rather, before time slips away, remember the people truly worth treasuring and the time I spent with them.",
+        "In unfamiliar places I am usually silent; once I am comfortable, there is a vividness and warmth in me that few people get to see.",
+        "I am unusually sensitive to feelings and perceptions that lie beyond words, and used to catching the smallest changes — which has also led me into reading too much into things. But I have gradually understood that sensitivity is a way of perceiving, not the power to see through everything; understanding others should not come at the cost of wearing myself down, and treasuring a relationship does not mean giving in on everything.",
+        "So I try to put down pointless speculation, replacing guessing with honesty and avoidance with facing things directly. While keeping my delicacy, I am also learning to hold firm boundaries.",
+        "Perhaps growing up is not about becoming invulnerable, but about still being willing, after seeing the world's complexity and my own limits, to feel sincerely, think rationally, and walk gently yet firmly toward every encounter.",
+        "Patience rounds off what haste would break; calm keeps a person at peace.",
+        "Infinite progress — looking forward to meeting you."
+      ]
+    },
+    {
+      "type": "contact",
+      "title": "Get in Touch",
+      "email": "123@jxz.us.ci",
+      "emailLabel": "Email is the best way to reach me:",
+      "wechatName": "君夏终",
+      "wechatLabel": "I am also on WeChat as:",
+      "wechatId": "abcjxz123",
+      "wechatIdLabel": "ID: ",
+      "qqName": "君夏终",
+      "qqLabel": "I am also on QQ as:",
+      "qqId": "jxzusci123",
+      "qqIdLabel": "QID: "
+    },
+    {
+      "type": "links",
+      "title": "Elsewhere on the Internet",
+      "links": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/abcdws11",
+          "desc": "The code behind this site and everything else I have been brave enough to publish."
+        },
+        {
+          "name": "Bilibili",
+          "url": "https://space.bilibili.com/3546557502720659",
+          "desc": "Occasional videos and a lot of watching other people build things."
+        },
+        {
+          "name": "Blog",
+          "url": "https://jxz.us.ci",
+          "desc": "Longer, messier notes about code, school life, and whatever broke this week."
+        }
+      ]
+    }
+  ],
+  "closing": "Thanks for reading all the way down here. Drink some water, get some sleep, and 73."
+}
