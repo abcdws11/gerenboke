@@ -2,7 +2,8 @@
 
 一个手写的纯静态个人网站，支持 **简体中文 / English / 日本語** 三语切换，带亮/暗主题。
 
-- 线上地址：<https://kfdzcoffee.cn>
+- 线上地址：<https://bh
+- 6caz.us.ci>
 - 博客：<https://jxz.us.ci>
 - 邮箱：123@jxz.us.ci
 
